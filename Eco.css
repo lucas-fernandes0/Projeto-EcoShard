@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabacalho{
+    position: relative;
+    display: flex;
+    z-index: 1;
+    background-color: green;
+    height: 55px;
+    align-items: center;
+    justify-self: center;
+    
+}
+#menu{
+    background: url(img/55003.png);
+    height: 55px;
+    width: 55px;
+    border: none;
+    background-repeat: no-repeat;
+}
+#search{
+    background: url(img/16492.png);
+    height: 55px;
+    width: 55px;
+    border: none;
+    background-repeat: no-repeat;
+}
+
+#TM{
+    position: relative;
+    left: 27%;
+}
+#titulo{
+    position: relative;
+    left: 15%;
+}
