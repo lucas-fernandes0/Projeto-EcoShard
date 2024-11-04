@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: wheat;
+}
 .cabacalho{
     position: relative;
     display: flex;
@@ -34,4 +37,56 @@
 #titulo{
     position: relative;
     left: 15%;
+}
+.tsvdv{
+    background-color: green;
+}
+.toppo{
+    border: none;
+    background-color: green;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.toppo:hover{
+    background-color: lightgreen;
+}
+.priIi{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+#baner{
+    width: 400px;
+    height: 100px;
+}
+.galeria{
+    width: 410px;
+    height: 300px;
+    overflow: hidden;
+}
+.galeria .banner{
+    width: 500%;
+    animation: animacaco 10s infinite;
+}
+.galeria .banner #baner{
+    width: 16.5039%;
+}
+@keyframes animacaco{
+    0%  {margin-left: 0;}
+    20% {margin-left: -100%;}
+    40% {margin-left: -200%;}
+    60% {margin-left: -300%;}
+    80% {margin-left: -400%;}
+    100%{margin-left: -500%;}
+}
+.EEE{
+    border: 5px green solid;
+    border-radius: 15px;
+}
+.EE{
+    display: flex;
+}
+h4{
+    
+    font-size: 90%;
 }
